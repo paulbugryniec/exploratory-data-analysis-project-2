@@ -1,7 +1,10 @@
-# # load packages
+# Clear workspace
+rm(list = ls())
+
+# load packages
 library(dplyr)
 
-# load data
+# load data assuming the files are saved in a folder called data in the working directory
 NEI <- readRDS("data/summarySCC_ assuming the files are saved in a folder called data in the working directoryPM25.rds")
 SCC <- readRDS("data/Source_Classification_Code.rds")
 
